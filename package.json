@@ -1,7 +1,7 @@
 {
-  "name": "react-project",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{ description }}",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "build": "webpack --config ./config/webpack.prod.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{ author }}",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.10",
